@@ -1,0 +1,2 @@
+#Enable plugdev members access to 8SMC1 devices
+SUBSYSTEM=="usb", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="0230", MODE:="0660", GROUP="plugdev", SYMLINK+="standa/8smc1_%n"
