@@ -962,10 +962,13 @@ void USMC_impl::initDefaults(int id) {
     _params[id]->MaxTemp    = 70.0f;
     _params[id]->AccelT     = 200.0f;
     _params[id]->DecelT     = 200.0f;
+    _params[id]->PTimeout   = 500.0f;
     _params[id]->BTimeout1  = 500.0f;
     _params[id]->BTimeout2  = 500.0f;
     _params[id]->BTimeout3  = 500.0f;
     _params[id]->BTimeout4  = 500.0f;
+    _params[id]->BTimeoutR  = 500.0f;
+    _params[id]->BTimeoutD  = 500.0f;
     _params[id]->BTO1P      = 200.0f;
     _params[id]->BTO2P      = 300.0f;
     _params[id]->BTO3P      = 400.0f;
